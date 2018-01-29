@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+  <title>ファラウーナ | </title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+  <!-- メイン -->
+  <div id="main">
+
+    <h2>■連絡フォーム</h2>
+    ■連絡したい事項を選択してください。<br>
+  </div>
+  <!-- メイン ここまで-->
+  <form action="result.html" method="get">
+    <p>
+      <input type="checkbox" name="check" value="交流" checked="checked">交流
+      <input type="checkbox" name="check" value="質問">質問
+      <input type="checkbox" name="check" value="要望">要望
+      <input type="checkbox" name="check" value="その他">その他
+    </p>
+    <br>
+    ■内容を入力してください。<br>
+    <p>
+      <textarea name="message" rows="8" cols="70">ここに内容を記入してください。</textarea><br>
+    </p>
+
+    <br>
+    <p>
+      ■初めてのお問い合わせですか？<br>
+      <input type ="radio" name="first" value="はい" checked>はい
+      <input type ="radio" name="first" value="いいえ">いいえ
+    </p>
+    <br>
+    
+    ■返信が欲しい場合、こちらにメールアドレスを入力してください。<br>
+    <p>
+      メールアドレス：<input type="text" name="address" size="50" maxlength="50">
+    </p>
+
+    <p>
+      <input type="submit" id="title" name="submit" value="送信する">
+    </p>
+  </form>
+
+  <!-- フッター -->
+  <div id="footer">
+    <p>&copy;Copyright Farawuna. All rights reserved.</p>
+  </div>
+  <!-- フッター ここまで -->
+</body>
+</html>

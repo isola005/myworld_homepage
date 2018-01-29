@@ -1,0 +1,161 @@
+#world {
+opacity:0.7;
+}
+
+#world:hover {
+opacity:1;
+transition: opacity  0.3s ease-in;
+background-repeat: no-repeat;
+background-image: url("../image/banner/world2.png")
+}
+
+#civilization {
+opacity:0.7;
+}
+
+#civilization:hover {
+opacity:1;
+transition: opacity  0.3s ease-in;
+background-repeat: no-repeat;
+background-image: url("../image/banner/civilization2.png")
+}
+
+#charactar {
+opacity:0.7;
+}
+
+#charactar:hover {
+opacity:1;
+transition: opacity  0.3s ease-in;
+background-repeat: no-repeat;
+background-image: url("../image/banner/character2.png")
+}
+
+#life {
+opacity:0.7;
+}
+
+#life:hover {
+opacity:1;
+transition: opacity  0.3s ease-in;
+background-repeat: no-repeat;
+background-image: url("../image/banner/life2.png")
+}
+
+#geography {
+opacity:0.7;
+}
+
+#geography:hover {
+opacity:1;
+transition: opacity  0.3s ease-in;
+background-repeat: no-repeat;
+background-image: url("../image/banner/geography2.png")
+}
+
+#contact {
+opacity:0.7;
+}
+
+#contact:hover {
+opacity:1;
+transition: opacity  0.3s ease-in;
+background-repeat: no-repeat;
+background-image: url("../image/banner/contact2.png")
+}
+
+#object{
+opacity:0.7;
+}
+
+#object:hover {
+opacity:1;
+transition: opacity  0.3s ease-in;
+background-repeat: no-repeat;
+background-image: url("../image/banner/object2.png")
+}
+
+#home {
+opacity:0.7;}
+
+#home:hover {
+opacity:1;
+transition: opacity  0.3s ease-in;
+background-repeat: no-repeat;
+background-image: url("../image/banner/home2.png")
+}
+
+#footer {
+    text-align: center;
+}
+
+#result {
+	width: 800px;
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+}
+
+#result td {
+	padding: 0.5em;
+	border: 1px solid #cccccc;
+	text-align: left;
+	vertical-align: top;
+}
+
+#result th {
+	width: 100px;
+	background-color: #eeeeee;
+}
+
+#result td {
+}
+
+.image {
+    text-align: center;
+}
+
+.icon{
+  overflow: hidden;
+}
+
+.icon img{
+    padding-right: 1em;
+}
+.icon p{
+  background-image: url("../image/line_b.png");
+  background-repeat: repeat-x;
+  margin-top: 0px;
+  padding:20px 0 20px 0;
+}
+
+/*フロート*/
+.float img{
+    float: left;
+    padding-right: 3em;
+
+}
+
+/*フロート解除*/
+.clear {
+    clear: both;
+}
+
+table.info {
+	border-collapse: collapse;
+	border: 1px solid #000000;
+
+}
+table.info th, table.info td {
+	padding: 5px 40px 5px 40px;
+	border: 1px solid #000000;
+	text-align: left;
+	vertical-align: middle;
+}
+table.info th {
+	background-color: #d9d9d9;
+	color: #000000;
+}
+
+hr{
+    border-bottom: 1px dashed;
+}
